@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Register</h1>
+
+    <form>
+        <label>
+            First Name:
+            <input type="text" name="name" placeholder="John">
+        </label>
+
+        <label>
+            Last Name:
+            <input type="text" name="name" placeholder="Smith">
+        </label>
+    
+    <div>
+        <label>
+            Male
+            <input type="radio" name="choice">
+        </label>
+        <label>
+            Female
+            <input type="radio" name="choice">
+        </label>
+        <label>
+            Other
+            <input type="radio" name="choice">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Email:
+            <input type="email" name="mail" placeholder="your email">
+       </label>
+
+        <label>
+            Password:
+            <input type="password" name="mail" placeholder="your password" pattern=".{5,10}" required title=" 5 to 10 characters">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Birthday:
+            <select >
+                <option>Month</option>
+            </select>
+            <select >
+                <option>Day</option>
+            </select>
+            <select >
+                <option>Year</option>
+            </select>
+        </label>
+    </div>
+
+    <div>
+        I agree to the terms and conditions 
+        <input type="checkbox" name="terms">
+    </div>
+
+    <button>Submit</button>
+
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+body
+{
+    background-image: url(./notebook.png);
+}
+
+.p
+{
+    padding-left: 100px;
+}
+.w
+{
+    width: 100%;
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>Mr. JavaScript</title>
+    </head>
+    <body>
+
+        <h1>I'm JS, unclicked.</h1>
+        <a href="#" class="s1">Hey JS, How§ are you?</a>
+        <a href="#" class="s2">Reset</a>
+
+        <script type="text/javascript">
+
+            var a = document.querySelector(".s1");
+
+            a.addEventListener('click', function(){
+
+                var h1 = document.querySelector("h1")
+                h1.innerHTML = "WHY DID YOU CLICKED? Now, Reset it.";
+            });
+
+            var b = document.querySelector(".s2");
+
+            b.addEventListener('click', function(){
+
+                var h1 = document.querySelector("h1")
+                h1.innerHTML = "I'm JS, unclicked.";
+            });
+
+
+        </script>
+    </body>
+</html>

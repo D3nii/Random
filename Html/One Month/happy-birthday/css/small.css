@@ -1,0 +1,30 @@
+.container
+{
+    width:600px;
+    margin: 100px auto;
+}
+
+.left
+{
+    float: left;
+    padding-left: 10px;
+}
+
+.right
+{
+    float: right;
+    padding-right: 10px;
+
+}
+
+p
+{
+  text-align: center;
+  margin: 70px;
+}
+
+.r
+{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}

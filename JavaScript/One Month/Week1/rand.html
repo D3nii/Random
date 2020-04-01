@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Randomizer</title>
+
+    <style type="text/css">
+        <style>
+            
+            /* Basic CSS comment */ 
+            body
+            {
+                background-color: darkgray;
+                width: 50%;
+            }
+
+            h1 {
+                font-size: 20px;
+                color: #333 ;
+                width: 50%;
+                text-align: center;
+                padding-left: 300px;
+                padding-top: 300px;
+            }
+
+       
+    </style>
+
+    <script>
+        var courses = new Array("JavaScript", "Ruby", "Python", "HTML & CSS", "Front-End Responsive Design", "Programming for Non-Programmers");
+
+        var r = Math.floor(Math.random()*courses.length);
+        var c = courses[r];
+
+        document.write("<h1>Accorsing to me, The next courses which You should take from One Month is " + c + " !</h1>");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
