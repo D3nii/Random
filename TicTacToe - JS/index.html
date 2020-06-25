@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game - 1</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+
+	<div>
+	<h1>Tic Tac Toe </h1>
+	</div>
+
+	<div class="container">
+		<br>
+ 
+		<div id="pname">
+			<h4>Name:</h4>
+		</div>
+
+		<div id="player">
+			<h4>Player: </h4>
+			<label for="X">X</label><input type="radio" value="X" name="player" onclick="player(this.value)">
+
+			<label for="O">O</label><input type="radio" value="O" name="player" onclick="player(this.value)">
+		</div>
+		<br>
+	</div>
+
+	<div class="container">
+		<br>
+		<div id="b1" onclick="draw('b1')">1</div>
+		<div id="b2" onclick="draw('b2')">2</div>
+		<div id="b3" onclick="draw('b3')">3</div>
+		<div id="b4" onclick="draw('b4')">4</div>
+		<div id="b5" onclick="draw('b5')">5</div>
+		<div id="b6" onclick="draw('b6')">6</div>
+		<div id="b7" onclick="draw('b7')">7</div>
+		<div id="b8" onclick="draw('b8')">8</div>
+		<div id="b9" onclick="draw('b9')">9</div>
+	</div>
+
+	<div class = container>
+		<div id="winner"></div>
+	</div>
+
+	<div class = container>
+		<div id="playAgain" onclick="Again()"></div>
+	</div>
+
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

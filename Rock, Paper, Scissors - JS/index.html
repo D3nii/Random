@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game - 2</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+	<div>
+		<img src="" id="choiceimg">
+	</div>
+
+	<div class="container">
+		<h4 id="lol">Welcome Player.</h4>
+		<input type="text" id="name" placeholder="Enter your name..">
+		<br>
+
+		<h4>Choose your move: </h4>
+
+		<form>
+			<select id="move" onchange="check()">
+				<option value="0">Choose</option>
+				<option value="1">Rock</option>
+				<option value="2">Paper</option>
+				<option value="3">Scissors</option>
+			</select> 
+		</form>
+		<br>
+
+	</div>
+
+	<div>
+		<img src="" id="compimg">
+	</div>
+
+	<div id="winner"></div>
+
+
+	<script src="./script.js" type="text/javascript"></script>
+</body>
+</html>

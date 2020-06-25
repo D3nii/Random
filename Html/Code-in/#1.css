@@ -1,0 +1,77 @@
+#main
+{
+  background-color: lightgray;
+  width: 90%;
+  text-align: center;
+  padding: 25px;
+  margin: auto;
+}
+
+#img-div
+{
+    max-width: 80%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 35px;
+    border-radius: 9px;
+}
+
+img
+{
+  max-width: 70%;
+  margin: auto;
+  display: block;
+}
+
+#tribute-info
+{
+  margin: auto;
+  width: 60%;
+}
+
+h1
+{
+  font-size: 30px;
+}
+
+p
+{
+  margin: auto;
+  width: 600px;
+  padding: 15px;
+}
+
+a
+{
+  text-decoration: none;
+  color: orange;
+}
+
+#copy
+{
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#vr{
+  width : 1px ;
+  height : 2095px ; 
+}
+
+#r
+{
+  float: right;
+  transform:rotate(180deg);
+}
+
+#l
+{
+  float: left;
+}
+
+p.lo
+{
+  font-siize: 22px;
+}

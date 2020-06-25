@@ -1,0 +1,31 @@
+.container {
+	background-color: lightgray;
+	margin: 10px auto;
+	width: 300px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+img {
+	width: 400px;
+	height: 240px;
+}
+
+#choiceimg {
+	float: left;
+	margin-top: 300px;
+}
+
+#compimg {
+	float: right;
+	margin-top: 150px;
+}
+
+#winner {
+	width: 300px;
+	margin-left: 545px;
+	margin-top: 450px;
+	background-color: lightgray;
+	border-radius: 15px;
+	text-align: center;
+}
