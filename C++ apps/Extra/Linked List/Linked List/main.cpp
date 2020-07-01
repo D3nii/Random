@@ -19,14 +19,21 @@ public:
         val = x;
         next = y;
     }
+};
+
+class LinkedList {
+    Node n;
+    
+public:
+    LinkedList(int x): n(x) {}
     
     void show() {
-        Node *temp = this;
+        Node temp = n;
         
-        while (temp) {
-            cout << temp -> val << " ";
+        while (temp != NULL) {
+            cout << temp . val << " ";
             
-            temp = temp -> next;
+            temp = *temp . next;
         }
     }
 };
